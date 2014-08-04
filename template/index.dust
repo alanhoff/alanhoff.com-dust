@@ -1,0 +1,15 @@
+{>layout/}
+{<body}
+    <h3>Página inicial</h3>
+    <p>É fácil iniciar um loop com o Dust.</p>
+    <ul>
+        {#pessoas}
+        <li>{nome} {sobrenome}</li>
+        {/pessoas}
+    </ul>
+    <p>Esses sãos alguns de meus gists</p>
+    {#gists user="alanhoff"}
+        * <a href="{html_url}">Link</a> {description}<br />
+    {/gists}
+{/body}
+

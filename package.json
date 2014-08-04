@@ -1,0 +1,27 @@
+{
+  "name": "alahoff.com-dust",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "Demonstração de uso do Dust com o Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanhoff/alanhoff.com-dust"
+  },
+  "author": "Alan Hoffmeister <alanhoffmeister@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanhoff/alanhoff.com-dust/issues"
+  },
+  "homepage": "https://github.com/alanhoff/alanhoff.com-dust",
+  "dependencies": {
+    "adaro": "^0.1.5",
+    "dustjs-helpers": "^1.2.0",
+    "dustjs-linkedin": "^2.4.0",
+    "express": "^4.7.2",
+    "request": "^2.39.0"
+  }
+}

@@ -1,0 +1,5 @@
+{>layout/}
+{<body}
+    <h3>Não encontrado</h3>
+    <p>A página que você procura não foi encontrada :/</p>
+{/body}

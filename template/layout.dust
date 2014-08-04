@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste com o Dust</title>
+</head>
+<body>
+    <a href="/">Página inicial</a> | <a href="/contato">Contato</a><br />
+    {+body}
+        Body padrão para quando não há body.
+    {/body}
+    <br />
+    <footer>
+        {+footer}
+            <small>Template com Dust &copy;2014</small>
+        {/footer}
+    </footer>
+</body>
+</html>
